@@ -1,0 +1,49 @@
+import { Box, Heading, Text, Image, VStack, Divider } from "@chakra-ui/react";
+
+const Index = () => {
+  return (
+    <Box p={8}>
+      <VStack spacing={8} align="start">
+        <Heading as="h1" size="2xl">
+          AI-Optimized Fossil-Free Steel Production
+        </Heading>
+
+        <Text fontSize="xl">This system leverages AI and machine learning to optimize a steel production process that eliminates fossil fuel usage and minimizes carbon dioxide emissions. The key components are:</Text>
+
+        <Box>
+          <Heading size="lg">1. Hydrogen-Based Direct Reduction</Heading>
+          <Text>Replace coal and natural gas with green hydrogen produced from renewable energy to reduce iron ore into sponge iron. The AI system optimizes hydrogen production and the direct reduction process.</Text>
+          <Image src="https://images.unsplash.com/photo-1521405566890-bc4a73601e4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxoeWRyb2dlbiUyMGRpcmVjdCUyMHJlZHVjdGlvbiUyMHN0ZWVsfGVufDB8fHx8MTcxMTEyMDEzOHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Hydrogen-based direct reduction" />
+        </Box>
+
+        <Divider />
+
+        <Box>
+          <Heading size="lg">2. Electric Arc Furnace (EAF) Melting</Heading>
+          <Text>Melt sponge iron and recycled scrap in an EAF powered by renewable electricity instead of fossil fuels. AI optimizes the EAF process and scrap blending.</Text>
+          <Image src="https://images.unsplash.com/photo-1697698532602-ccf880036281?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGFyYyUyMGZ1cm5hY2UlMjBzdGVlbHxlbnwwfHx8fDE3MTExMjAxMzh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Electric arc furnace" />
+        </Box>
+
+        <Divider />
+
+        <Box>
+          <Heading size="lg">3. Carbon Capture and Storage</Heading>
+          <Text>Capture any remaining CO2 emissions from the process and permanently store it underground. The AI system optimizes CO2 capture efficiency and identifies optimal storage sites.</Text>
+          <Image src="https://images.unsplash.com/photo-1465779042638-3e4bfcc3475d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjYXJib24lMjBjYXB0dXJlJTIwYW5kJTIwc3RvcmFnZXxlbnwwfHx8fDE3MTExMjAxMzh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Carbon capture and storage" />
+        </Box>
+
+        <Divider />
+
+        <Box>
+          <Heading size="lg">4. Predictive Maintenance</Heading>
+          <Text>Use AI and sensor data to predict equipment failures and optimize maintenance schedules. This improves efficiency and minimizes unplanned downtime.</Text>
+          <Image src="https://images.unsplash.com/photo-1696258686286-1191184126aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcmVkaWN0aXZlJTIwbWFpbnRlbmFuY2UlMjBhaXxlbnwwfHx8fDE3MTExMjAxMzl8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Predictive maintenance with AI" />
+        </Box>
+
+        <Text fontSize="xl">By integrating these technologies with an AI-driven optimization system, steel production can be made fossil-free while significantly reducing carbon emissions and improving overall efficiency and sustainability.</Text>
+      </VStack>
+    </Box>
+  );
+};
+
+export default Index;
